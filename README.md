@@ -46,7 +46,12 @@ To get the insight of data I explored the training dataset and to check that all
 of the label are fairly distributed in all three datasets, I plotted the distribution graph for all
 three datasets and found that they are fairly distributed.
 
+![testData](https://user-images.githubusercontent.com/25251763/63258311-68782580-c299-11e9-9657-284ecc6c93cd.png)
+![traindata](https://user-images.githubusercontent.com/25251763/63258316-6ada7f80-c299-11e9-938f-e890669242c1.png)
+![valData](https://user-images.githubusercontent.com/25251763/63258325-6d3cd980-c299-11e9-9760-e06472d976de.png)
+
 Distribution graphs for train2.tsv, test2.tsv and val2.tsv respectively.
+
 Afterwards I checked for any missing label values with the help of ‘isnull()’ function and
 the result was none which depicts that there was no need to impute the data.
 After analyzing the research paper, to increase the accuracy of the classifier I merged the
